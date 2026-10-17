@@ -1,0 +1,19 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Zach"
+            }
+        ],
+        "Category": "",
+        "Description": "Cathode - a Windows 98 style desktop with Cathode branding",
+        "Id": "org.cathode.desktop",
+        "License": "GPL-2.0-or-later",
+        "Name": "Cathode",
+        "Version": "1.0",
+        "Website": "https://github.com/Zachygd/Cathode-KDE-Theme"
+    },
+    "Keywords": "Desktop;Workspace;Appearance;Look and Feel;Windows 98;Retro;Cathode;",
+    "X-Plasma-APIVersion": "2"
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="110" viewBox="0 0 64 110" shape-rendering="crispEdges">
+<defs><style type="text/css" id="current-color-scheme">.ColorScheme-Highlight { color:#064ed8; }</style></defs>
+<g id="south-active-tab-topleft"><rect x="0" y="0" width="1" height="1" fill="#000000" fill-opacity="0"/></g>
+<g id="south-active-tab-top"><rect x="5" y="0" width="4" height="1" fill="#000000" fill-opacity="0"/></g>
+<g id="south-active-tab-topright"><rect x="13" y="0" width="1" height="1" fill="#000000" fill-opacity="0"/></g>
+<g id="south-active-tab-left"><rect x="0" y="5" width="1" height="4" fill="#000000" fill-opacity="0"/></g>
+<g id="south-active-tab-center"><rect x="5" y="5" width="4" height="4" fill="#000000" fill-opacity="0"/></g>
+<g id="south-active-tab-right"><rect x="13" y="5" width="1" height="4" fill="#000000" fill-opacity="0"/></g>
+<g id="south-active-tab-bottomleft"><rect x="0" y="13" width="1" height="1" fill="#000000" fill-opacity="0"/></g>
+<g id="south-active-tab-bottom"><rect x="5" y="13" width="4" height="1" fill="#000000" fill-opacity="0"/></g>
+<g id="south-active-tab-bottomright"><rect x="13" y="13" width="1" height="1" fill="#000000" fill-opacity="0"/></g>
+<g id="west-active-tab-topleft"><rect x="0" y="22" width="1" height="1" fill="#000000" fill-opacity="0"/></g>
+<g id="west-active-tab-top"><rect x="5" y="22" width="4" height="1" fill="#000000" fill-opacity="0"/></g>
+<g id="west-active-tab-topright"><rect x="13" y="22" width="1" height="1" fill="#000000" fill-opacity="0"/></g>
+<g id="west-active-tab-left"><rect x="0" y="27" width="1" height="4" fill="#000000" fill-opacity="0"/></g>
+<g id="west-active-tab-center"><rect x="5" y="27" width="4" height="4" fill="#000000" fill-opacity="0"/></g>
+<g id="west-active-tab-right"><rect x="13" y="27" width="1" height="4" fill="#000000" fill-opacity="0"/></g>
+<g id="west-active-tab-bottomleft"><rect x="0" y="35" width="1" height="1" fill="#000000" fill-opacity="0"/></g>
+<g id="west-active-tab-bottom"><rect x="5" y="35" width="4" height="1" fill="#000000" fill-opacity="0"/></g>
+<g id="west-active-tab-bottomright"><rect x="13" y="35" width="1" height="1" fill="#000000" fill-opacity="0"/></g>
+<g id="east-active-tab-topleft"><rect x="0" y="44" width="1" height="1" fill="#000000" fill-opacity="0"/></g>
+<g id="east-active-tab-top"><rect x="5" y="44" width="4" height="1" fill="#000000" fill-opacity="0"/></g>
+<g id="east-active-tab-topright"><rect x="13" y="44" width="1" height="1" fill="#000000" fill-opacity="0"/></g>
+<g id="east-active-tab-left"><rect x="0" y="49" width="1" height="4" fill="#000000" fill-opacity="0"/></g>
+<g id="east-active-tab-center"><rect x="5" y="49" width="4" height="4" fill="#000000" fill-opacity="0"/></g>
+<g id="east-active-tab-right"><rect x="13" y="49" width="1" height="4" fill="#000000" fill-opacity="0"/></g>
+<g id="east-active-tab-bottomleft"><rect x="0" y="57" width="1" height="1" fill="#000000" fill-opacity="0"/></g>
+<g id="east-active-tab-bottom"><rect x="5" y="57" width="4" height="1" fill="#000000" fill-opacity="0"/></g>
+<g id="east-active-tab-bottomright"><rect x="13" y="57" width="1" height="1" fill="#000000" fill-opacity="0"/></g>
+<g id="active-tab-topleft"><rect x="0" y="66" width="1" height="1" fill="#000000" fill-opacity="0"/></g>
+<g id="active-tab-top"><rect x="5" y="66" width="4" height="1" fill="#000000" fill-opacity="0"/></g>
+<g id="active-tab-topright"><rect x="13" y="66" width="1" height="1" fill="#000000" fill-opacity="0"/></g>
+<g id="active-tab-left"><rect x="0" y="71" width="1" height="4" fill="#000000" fill-opacity="0"/></g>
+<g id="active-tab-center"><rect x="5" y="71" width="4" height="4" fill="#000000" fill-opacity="0"/></g>
+<g id="active-tab-right"><rect x="13" y="71" width="1" height="4" fill="#000000" fill-opacity="0"/></g>
+<g id="active-tab-bottomleft"><rect x="0" y="79" width="1" height="1" fill="#000000" fill-opacity="0"/></g>
+<g id="active-tab-bottom"><rect x="5" y="79" width="4" height="1" fill="#000000" fill-opacity="0"/></g>
+<g id="active-tab-bottomright"><rect x="13" y="79" width="1" height="1" fill="#000000" fill-opacity="0"/></g>
+<g id="north-active-tab-topleft"><rect x="0" y="88" width="1" height="1" fill="#000000" fill-opacity="0"/></g>
+<g id="north-active-tab-top"><rect x="5" y="88" width="4" height="1" fill="#000000" fill-opacity="0"/></g>
+<g id="north-active-tab-topright"><rect x="13" y="88" width="1" height="1" fill="#000000" fill-opacity="0"/></g>
+<g id="north-active-tab-left"><rect x="0" y="93" width="1" height="3" fill="#000000" fill-opacity="0"/></g>
+<g id="north-active-tab-center"><rect x="5" y="93" width="4" height="3" fill="#000000" fill-opacity="0"/></g>
+<g id="north-active-tab-right"><rect x="13" y="93" width="1" height="3" fill="#000000" fill-opacity="0"/></g>
+<g id="north-active-tab-bottomleft"><rect x="0" y="100" width="1" height="2" fill="#000000" fill-opacity="0"/><rect x="0" y="100" width="1" height="2" class="ColorScheme-Highlight" style="fill:currentColor"/></g>
+<g id="north-active-tab-bottom"><rect x="5" y="100" width="4" height="2" fill="#000000" fill-opacity="0"/><rect x="5" y="100" width="4" height="2" class="ColorScheme-Highlight" style="fill:currentColor"/></g>
+<g id="north-active-tab-bottomright"><rect x="13" y="100" width="1" height="2" fill="#000000" fill-opacity="0"/><rect x="13" y="100" width="1" height="2" class="ColorScheme-Highlight" style="fill:currentColor"/></g>
+</svg>

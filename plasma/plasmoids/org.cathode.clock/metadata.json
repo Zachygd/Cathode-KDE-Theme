@@ -1,0 +1,18 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Zach"
+            }
+        ],
+        "Category": "Date and Time",
+        "Description": "Windows 98 style taskbar clock that draws the sunken notification-area box around itself and the system tray",
+        "Icon": "preferences-system-time",
+        "Id": "org.cathode.clock",
+        "License": "GPL-2.0-or-later",
+        "Name": "Cathode Clock",
+        "Version": "1.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

@@ -1,0 +1,15 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Zach"
+            }
+        ],
+        "Description": "Windows 98 style taskbar, menus and tooltips for Cathode",
+        "Id": "Cathode98Dark",
+        "License": "GPL-2.0-or-later",
+        "Name": "Cathode 98 Dark",
+        "Version": "1.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

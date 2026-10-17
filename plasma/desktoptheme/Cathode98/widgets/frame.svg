@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="70" viewBox="0 0 64 70" shape-rendering="crispEdges">
+<defs><style type="text/css" id="current-color-scheme">.ColorScheme-Highlight { color:#064ed8; }</style></defs>
+<g id="sunken-topleft"><rect x="0" y="0" width="1" height="1" fill="#000000" fill-opacity="0"/><rect x="0" y="0" width="1" height="1" fill="#808080"/></g>
+<g id="sunken-top"><rect x="5" y="0" width="6" height="1" fill="#000000" fill-opacity="0"/><rect x="5" y="0" width="6" height="1" fill="#808080"/></g>
+<g id="sunken-topright"><rect x="15" y="0" width="1" height="1" fill="#000000" fill-opacity="0"/><rect x="15" y="0" width="1" height="1" fill="#ffffff"/></g>
+<g id="sunken-left"><rect x="0" y="5" width="1" height="6" fill="#000000" fill-opacity="0"/><rect x="0" y="5" width="1" height="6" fill="#808080"/></g>
+<g id="sunken-center"><rect x="5" y="5" width="6" height="6" fill="#000000" fill-opacity="0"/></g>
+<g id="sunken-right"><rect x="15" y="5" width="1" height="6" fill="#000000" fill-opacity="0"/><rect x="15" y="5" width="1" height="6" fill="#ffffff"/></g>
+<g id="sunken-bottomleft"><rect x="0" y="15" width="1" height="1" fill="#000000" fill-opacity="0"/><rect x="0" y="15" width="1" height="1" fill="#ffffff"/></g>
+<g id="sunken-bottom"><rect x="5" y="15" width="6" height="1" fill="#000000" fill-opacity="0"/><rect x="5" y="15" width="6" height="1" fill="#ffffff"/></g>
+<g id="sunken-bottomright"><rect x="15" y="15" width="1" height="1" fill="#000000" fill-opacity="0"/><rect x="15" y="15" width="1" height="1" fill="#ffffff"/></g>
+<g id="raised-topleft"><rect x="0" y="24" width="1" height="1" fill="#000000" fill-opacity="0"/><rect x="0" y="24" width="1" height="1" fill="#ffffff"/></g>
+<g id="raised-top"><rect x="5" y="24" width="6" height="1" fill="#000000" fill-opacity="0"/><rect x="5" y="24" width="6" height="1" fill="#ffffff"/></g>
+<g id="raised-topright"><rect x="15" y="24" width="1" height="1" fill="#000000" fill-opacity="0"/><rect x="15" y="24" width="1" height="1" fill="#808080"/></g>
+<g id="raised-left"><rect x="0" y="29" width="1" height="6" fill="#000000" fill-opacity="0"/><rect x="0" y="29" width="1" height="6" fill="#ffffff"/></g>
+<g id="raised-center"><rect x="5" y="29" width="6" height="6" fill="#000000" fill-opacity="0"/></g>
+<g id="raised-right"><rect x="15" y="29" width="1" height="6" fill="#000000" fill-opacity="0"/><rect x="15" y="29" width="1" height="6" fill="#808080"/></g>
+<g id="raised-bottomleft"><rect x="0" y="39" width="1" height="1" fill="#000000" fill-opacity="0"/><rect x="0" y="39" width="1" height="1" fill="#808080"/></g>
+<g id="raised-bottom"><rect x="5" y="39" width="6" height="1" fill="#000000" fill-opacity="0"/><rect x="5" y="39" width="6" height="1" fill="#808080"/></g>
+<g id="raised-bottomright"><rect x="15" y="39" width="1" height="1" fill="#000000" fill-opacity="0"/><rect x="15" y="39" width="1" height="1" fill="#808080"/></g>
+<g id="plain-topleft"><rect x="0" y="48" width="1" height="1" fill="#000000" fill-opacity="0"/></g>
+<g id="plain-top"><rect x="5" y="48" width="4" height="1" fill="#000000" fill-opacity="0"/></g>
+<g id="plain-topright"><rect x="13" y="48" width="1" height="1" fill="#000000" fill-opacity="0"/></g>
+<g id="plain-left"><rect x="0" y="53" width="1" height="4" fill="#000000" fill-opacity="0"/></g>
+<g id="plain-center"><rect x="5" y="53" width="4" height="4" fill="#000000" fill-opacity="0"/></g>
+<g id="plain-right"><rect x="13" y="53" width="1" height="4" fill="#000000" fill-opacity="0"/></g>
+<g id="plain-bottomleft"><rect x="0" y="61" width="1" height="1" fill="#000000" fill-opacity="0"/></g>
+<g id="plain-bottom"><rect x="5" y="61" width="4" height="1" fill="#000000" fill-opacity="0"/></g>
+<g id="plain-bottomright"><rect x="13" y="61" width="1" height="1" fill="#000000" fill-opacity="0"/></g>
+</svg>
