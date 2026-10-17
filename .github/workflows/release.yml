@@ -1,0 +1,38 @@
+# Builds the downloads and publishes a GitHub Release when a version tag is pushed:
+#   git tag v0.6.2 && git push origin v0.6.2
+# (VERSION must match the tag.) Versions below 1.0 are marked as pre-releases.
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check VERSION matches the tag
+        run: |
+          if [ "v$(cat VERSION)" != "$GITHUB_REF_NAME" ]; then
+            echo "VERSION says $(cat VERSION) but the tag is $GITHUB_REF_NAME" >&2
+            exit 1
+          fi
+
+      - name: Build the installer and archive
+        run: packaging/make-release.sh dist
+
+      - name: Publish the release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: Cathode ${{ github.ref_name }}
+          body_path: RELEASE_NOTES.md
+          prerelease: ${{ startsWith(github.ref_name, 'v0.') }}
+          files: |
+            dist/Cathode-Installer.run
+            dist/Cathode-KDE-Theme.tar.gz
+            dist/SHA256SUMS

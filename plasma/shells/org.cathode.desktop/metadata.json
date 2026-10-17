@@ -1,0 +1,17 @@
+{
+    "KPackageStructure": "Plasma/Shell",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Zach"
+            }
+        ],
+        "Description": "Cathode desktop shell: Plasma's desktop with the Cathode lock screen and Shut Down dialog",
+        "Id": "org.cathode.desktop",
+        "License": "GPL-2.0-or-later",
+        "Name": "Cathode",
+        "Version": "1.0"
+    },
+    "X-Plasma-APIVersion": "2",
+    "X-Plasma-FallbackPackage": "org.kde.plasma.desktop"
+}

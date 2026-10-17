@@ -1,0 +1,162 @@
+[
+ {
+  "slug": "cathode",
+  "name": "Cathode",
+  "light": "Cathode98",
+  "dark": "Cathode98Dark",
+  "icons": "Cathode",
+  "deskLight": "#008080",
+  "deskDark": "#004848",
+  "sel": "#064ed8"
+ },
+ {
+  "slug": "brick",
+  "name": "Brick",
+  "light": "Cathode98Brick",
+  "dark": "Cathode98BrickDark",
+  "icons": "Cathode-Brick",
+  "deskLight": "#803030",
+  "deskDark": "#421919",
+  "sel": "#cc1010"
+ },
+ {
+  "slug": "pumpkin",
+  "name": "Pumpkin",
+  "light": "Cathode98Pumpkin",
+  "dark": "Cathode98PumpkinDark",
+  "icons": "Cathode-Pumpkin",
+  "deskLight": "#805330",
+  "deskDark": "#422b19",
+  "sel": "#ba590f"
+ },
+ {
+  "slug": "wheat",
+  "name": "Wheat",
+  "light": "Cathode98Wheat",
+  "dark": "Cathode98WheatDark",
+  "icons": "Cathode-Wheat",
+  "deskLight": "#806d30",
+  "deskDark": "#423919",
+  "sel": "#91720b"
+ },
+ {
+  "slug": "ember",
+  "name": "Ember",
+  "light": "Cathode98Ember",
+  "dark": "Cathode98EmberDark",
+  "icons": "Cathode-Ember",
+  "deskLight": "#804030",
+  "deskDark": "#422119",
+  "sel": "#cc3610"
+ },
+ {
+  "slug": "spruce",
+  "name": "Spruce",
+  "light": "Cathode98Spruce",
+  "dark": "Cathode98SpruceDark",
+  "icons": "Cathode-Spruce",
+  "deskLight": "#30804b",
+  "deskDark": "#194227",
+  "sel": "#0b8734"
+ },
+ {
+  "slug": "meadow",
+  "name": "Meadow",
+  "light": "Cathode98Meadow",
+  "dark": "Cathode98MeadowDark",
+  "icons": "Cathode-Meadow",
+  "deskLight": "#5b8030",
+  "deskDark": "#2f4219",
+  "sel": "#4b850a"
+ },
+ {
+  "slug": "marine",
+  "name": "Marine",
+  "light": "Cathode98Marine",
+  "dark": "Cathode98MarineDark",
+  "icons": "Cathode-Marine",
+  "deskLight": "#308065",
+  "deskDark": "#194235",
+  "sel": "#0b875d"
+ },
+ {
+  "slug": "teal",
+  "name": "Teal",
+  "light": "Cathode98Teal",
+  "dark": "Cathode98TealDark",
+  "icons": "Cathode-Teal",
+  "deskLight": "#307880",
+  "deskDark": "#193e42",
+  "sel": "#0b818f"
+ },
+ {
+  "slug": "plum",
+  "name": "Plum",
+  "light": "Cathode98Plum",
+  "dark": "Cathode98PlumDark",
+  "icons": "Cathode-Plum",
+  "deskLight": "#723080",
+  "deskDark": "#3b1942",
+  "sel": "#ad10cc"
+ },
+ {
+  "slug": "eggplant",
+  "name": "Eggplant",
+  "light": "Cathode98Eggplant",
+  "dark": "Cathode98EggplantDark",
+  "icons": "Cathode-Eggplant",
+  "deskLight": "#503080",
+  "deskDark": "#2a1942",
+  "sel": "#5b10cc"
+ },
+ {
+  "slug": "rose",
+  "name": "Rose",
+  "light": "Cathode98Rose",
+  "dark": "Cathode98RoseDark",
+  "icons": "Cathode-Rose",
+  "deskLight": "#80305d",
+  "deskDark": "#421930",
+  "sel": "#cc107b"
+ },
+ {
+  "slug": "storm",
+  "name": "Storm",
+  "light": "Cathode98Storm",
+  "dark": "Cathode98StormDark",
+  "icons": "Cathode-Storm",
+  "deskLight": "#303680",
+  "deskDark": "#191c42",
+  "sel": "#101dcc"
+ },
+ {
+  "slug": "slate",
+  "name": "Slate",
+  "light": "Cathode98Slate",
+  "dark": "Cathode98SlateDark",
+  "icons": "Cathode-Slate",
+  "deskLight": "#697480",
+  "deskDark": "#2a2e33",
+  "sel": "#5e656b"
+ },
+ {
+  "slug": "spectrum",
+  "name": "Spectrum",
+  "light": "Cathode98Spectrum",
+  "dark": "Cathode98SpectrumDark",
+  "icons": "Cathode-Spectrum",
+  "deskLight": "#2e5478",
+  "deskDark": "#12243a",
+  "sel": "#1450c8"
+ },
+ {
+  "slug": "sunset",
+  "name": "Sunset",
+  "light": "Cathode98Sunset",
+  "dark": "Cathode98SunsetDark",
+  "icons": "Cathode-Sunset",
+  "deskLight": "#7a3a4c",
+  "deskDark": "#2e141c",
+  "sel": "#c0144e"
+ }
+]

@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Cathode
+Description=Cathode boot animation
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/cathode
+ScriptFile=/usr/share/plymouth/themes/cathode/cathode.script
