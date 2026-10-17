@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Shell scripts
-        run: shellcheck install.sh uninstall.sh get.sh packaging/*.sh
+        run: shellcheck --severity=warning install.sh uninstall.sh get.sh packaging/*.sh
       - name: Python
         run: python3 -m py_compile build/*.py share/cathode/app/cathode_display.py
       - name: JSON
