@@ -14,7 +14,8 @@ curl -fL --progress-bar "$URL" -o "$WORK/cathode.tar.gz"
 tar -xzf "$WORK/cathode.tar.gz" -C "$WORK"
 DIR="$(find "$WORK" -mindepth 1 -maxdepth 1 -type d | head -n 1)"
 # when piped into bash, questions have to be read from the terminal
-if [ ! -t 0 ] && [ -r /dev/tty ]; then
+# (no terminal at all, e.g. an automated setup: carry on without questions)
+if [ ! -t 0 ] && { : </dev/tty; } 2>/dev/null; then
     exec </dev/tty
 fi
 bash "$DIR/install.sh" "$@"
