@@ -3,8 +3,9 @@
 # To release: put the new number in VERSION, add a "## <version>" section to
 # CHANGELOG.md, and push to main. This creates the tag v<version> and the release.
 # (Pushing a tag v<version> yourself works too, and so does "Run workflow" on the
-# Actions tab.) A version that already has a release is skipped. Versions below
-# 1.0 are marked as pre-releases.
+# Actions tab.) A version that already has a release is skipped. Versions with a
+# suffix (0.7.0-beta) are marked as pre-releases; others become the "latest"
+# release, which the download links in the README always point at.
 name: Release
 
 on:
@@ -34,8 +35,13 @@ jobs:
             exit 1
           fi
           echo "tag=$tag" >> "$GITHUB_OUTPUT"
+          case "$tag" in *-*) pre=true ;; *) pre=false ;; esac
+          echo "prerelease=$pre" >> "$GITHUB_OUTPUT"
           if gh release view "$tag" >/dev/null 2>&1; then
-            echo "Release $tag already exists; nothing to do."
+            echo "Release $tag already exists; only making sure its pre-release flag is right."
+            if [ "$pre" = false ]; then
+              gh release edit "$tag" --prerelease=false --latest
+            fi
             echo "skip=true" >> "$GITHUB_OUTPUT"
           fi
 
@@ -51,7 +57,8 @@ jobs:
           target_commitish: ${{ github.sha }}
           name: Cathode ${{ steps.ver.outputs.tag }}
           body_path: RELEASE_NOTES.md
-          prerelease: ${{ startsWith(steps.ver.outputs.tag, 'v0.') }}
+          prerelease: ${{ steps.ver.outputs.prerelease == 'true' }}
+          make_latest: ${{ steps.ver.outputs.prerelease != 'true' }}
           files: |
             dist/Cathode-Installer.run
             dist/Cathode-KDE-Theme.tar.gz

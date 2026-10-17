@@ -161,7 +161,7 @@ The light/dark chrome itself (grays, bevels) is in `PALETTES` in `build/svgkit.p
 
 1. Put the new version number in `VERSION`, and add a `## <version>` section to `CHANGELOG.md` (it becomes the release notes).
 2. Commit and push to `main`.
-3. GitHub Actions builds `Cathode-Installer.run` and `Cathode-KDE-Theme.tar.gz`, then creates the tag `v<version>` and the release. Versions below 1.0 are marked as pre-releases. To build the files yourself, run `packaging/make-release.sh`, which writes them to `dist/`.
+3. GitHub Actions builds `Cathode-Installer.run` and `Cathode-KDE-Theme.tar.gz`, then creates the tag `v<version>` and the release. Versions with a suffix such as `0.7.0-beta` are marked as pre-releases. To build the files yourself, run `packaging/make-release.sh`, which writes them to `dist/`.
 
 ## Rebuilding
 
