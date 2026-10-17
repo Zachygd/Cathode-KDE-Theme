@@ -1,11 +1,18 @@
-# Builds the downloads and publishes a GitHub Release when a version tag is pushed:
-#   git tag v0.6.2 && git push origin v0.6.2
-# (VERSION must match the tag.) Versions below 1.0 are marked as pre-releases.
+# Builds the downloads and publishes a GitHub Release.
+#
+# To release: put the new number in VERSION, add a "## <version>" section to
+# CHANGELOG.md, and push to main. This creates the tag v<version> and the release.
+# (Pushing a tag v<version> yourself works too, and so does "Run workflow" on the
+# Actions tab.) A version that already has a release is skipped. Versions below
+# 1.0 are marked as pre-releases.
 name: Release
 
 on:
   push:
+    branches: [main]
+    paths: [VERSION, .github/workflows/release.yml]
     tags: ["v*"]
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -16,22 +23,35 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Check VERSION matches the tag
+      - name: Work out the version
+        id: ver
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          if [ "v$(cat VERSION)" != "$GITHUB_REF_NAME" ]; then
-            echo "VERSION says $(cat VERSION) but the tag is $GITHUB_REF_NAME" >&2
+          tag="v$(cat VERSION)"
+          if [ "$GITHUB_REF_TYPE" = tag ] && [ "$GITHUB_REF_NAME" != "$tag" ]; then
+            echo "VERSION says $tag but the pushed tag is $GITHUB_REF_NAME" >&2
             exit 1
+          fi
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+          if gh release view "$tag" >/dev/null 2>&1; then
+            echo "Release $tag already exists; nothing to do."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Build the installer and archive
+        if: steps.ver.outputs.skip != 'true'
         run: packaging/make-release.sh dist
 
       - name: Publish the release
+        if: steps.ver.outputs.skip != 'true'
         uses: softprops/action-gh-release@v2
         with:
-          name: Cathode ${{ github.ref_name }}
+          tag_name: ${{ steps.ver.outputs.tag }}
+          target_commitish: ${{ github.sha }}
+          name: Cathode ${{ steps.ver.outputs.tag }}
           body_path: RELEASE_NOTES.md
-          prerelease: ${{ startsWith(github.ref_name, 'v0.') }}
+          prerelease: ${{ startsWith(steps.ver.outputs.tag, 'v0.') }}
           files: |
             dist/Cathode-Installer.run
             dist/Cathode-KDE-Theme.tar.gz
